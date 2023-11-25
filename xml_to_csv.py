@@ -38,7 +38,7 @@ def write_csv(root):
         with open('instantane.csv', 'w') as f:
             f.write('id,record_timestamp,latitude,longitude,cp,pop,adresse,ville,horaires,services,gazole_maj,gazole_prix,sp95_maj,sp95_prix,e85_maj,e85_prix,gplc_maj,gplc_prix,e10_maj,e10_prix,sp98_maj,sp98_prix\n')
 
-        for item in root.findall('pdv'):
+        for item in root.findall('pdv')[:3]:
             id                  = int(item.get('id')) if item.get('id') is not None else None
             record_timestamp    = dt_now
             latitude            = float(item.get('latitude')) if item.get('latitude') is not None else None

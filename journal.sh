@@ -93,7 +93,7 @@ gcloud dataflow jobs run job-test \
 # https://github.com/nodesource/distributions#installation-instructions
 
 # transfer js script to the bucket
-gsutil cp ./csv_to_json.js $BUCKET_URL_INPUT_FILES
+gsutil cp ./udf.js $BUCKET_URL_INPUT_FILES
 
 gcloud dataflow jobs run ahah \
     --gcs-location gs://dataflow-templates-europe-west9/latest/GCS_Text_to_BigQuery \
