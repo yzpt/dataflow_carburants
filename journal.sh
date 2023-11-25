@@ -92,12 +92,14 @@ gcloud dataflow jobs run job-test \
 # install node.js
 # https://github.com/nodesource/distributions#installation-instructions
 
-# transfer js script to the bucket
-gsutil cp ./udf.js $BUCKET_URL_INPUT_FILES
 
-gcloud dataflow jobs run ahah \
-    --gcs-location gs://dataflow-templates-europe-west9/latest/GCS_Text_to_BigQuery \
-    --region europe-west9 \
-    --staging-location gs://carburants-dataflow-temp/temp_dir_df/ \
-    --additional-experiments {} \
-    --parameters inputFilePattern=gs://carburants-dataflow-input-files/csv_to_json.js,JSONPath=gs://carburants-dataflow-input-files/table_schema.json,outputTable=carburants-dataflow:carburants_dataset.carburants_table,bigQueryLoadingTemporaryDirectory=gs://carburants-dataflow-temp/temp_dir_bq/,javascriptTextTransformFunctionName=csv_to_json
+# https://github.com/GoogleCloudPlatform/DataflowTemplates/blob/main/v2/common/src/main/resources/udf-samples/transform_csv.js
+> transform_csv.js
+
+# transfer js script to the bucket
+gsutil cp ./data.json $BUCKET_URL_INPUT_FILES
+
+gcloud dataflow jobs run dzaf --gcs-location gs://dataflow-templates-europe-west9/latest/GCS_Text_to_BigQuery --region europe-west9 --staging-location gs://carburants-dataflow-temp/temp_dir_df/ --additional-experiments {} --parameters inputFilePattern=gs://carburants-dataflow-input-files/data.json,JSONPath=gs://carburants-dataflow-input-files/table_schema.json,outputTable=carburants-dataflow:carburants_dataset.carburants_table,bigQueryLoadingTemporaryDirectory=gs://carburants-dataflow-temp/temp_dir_bq/
+#non
+
+#try avec transform_csv.js, input as csv file
