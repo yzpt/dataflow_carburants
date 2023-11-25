@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "carburants-dataflow",
+  "private_key_id": "1ac172050cc130f79900b54498be470c0b8adc6c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDOx9MFQsz28qjs\nDgsPH6Ky9cr4OMbvUyPLRjagoz0aULHmxjTI8nTn9vjGEUUbD6b1xNrYWkHamBLu\nOZAlByIoMln3zM9WWDBCnpxNf1cPj3Psqk8zKhw8D4jiWLME6Y6VdqfPw/9KAKqK\nSOh+5Dadtnyu0Kz2V7HtKih06FWyA/Dlk9gapJBqyKfrxFpJG4W3Ch9P0hz2yh9R\nvANgmSXzpzgK9G9xyGNHp7CjJtjCwJbeYaojaL9c7mHM6sAasYfNR8lq2ScqtRpl\nORaqhQfbRlP1NitmoU8PqpjKJCrjyN35KcTCvlncFdW4KOtIvqJgie0RjxKU5GHC\nU3yQcbKDAgMBAAECgf9ZqErW/R/h81VLBMvGwvDIp8pZ1kRrgKEEgm0tOZpEzrhU\nV5yLhJUr/une953/HcpGxhQduwTSwx1yLYNSisVEqJBZ4XQE/DfwqtUaxRv6ozig\nZTfx91BGunWfrtXwS1SHeetJKrKGY8OOMg6c9la4C2gEZHaaWWvMaXshNZvykvpd\nf9Fh4YuOE+P78q8RiIhrjYmf9WXNLAt2r3/mHd13wgs5TOBwX2knnmuSGoF2CJgz\n5NgTBGKwYAZpGLi4mXZf9wJGll+N1HrNcJg57hdDKhExarILxLM4QAKqgCLoE/vG\nT7QvD0VVe55//7XEuBmjgw0BGondYLIvNX0v8dkCgYEA/i9Oynxt7C4mVWoPJ6IQ\nRtgCIgTD96nu5w4gUuHYk4KyKtzSO0Ls4tJlBFbR/OVoLf8xtzyY0jkSDuu9FUgJ\nCRiVw7/9aFct5YI+Jkxt44H39o3m8gh1GuIMMlPdwuOptc0wrGzZNFDqNIsTdF4K\nAUh/N2DrD7V6IUeF/iTEd88CgYEA0EHaim55sRGvIe55/+AzX0RPlRl6fX5H+Icc\n7WrhZ5RrzKVEkQlhnTk6bZc7UC8g7he36b/s2Q+n8DPsyTmzmnDTu0+JhyYWHqvQ\ngm9UrkiSy0g2HJ/8W2myoFAyGvQYfdhEGX/0PgFcK5gOD6tyDKo727TlpGMRUaI6\npLbI0w0CgYEAz98odHfl/WyQdPHTivoCja1BsUhsazJR6iunS6DfWWNdCailVUma\nKLUfX7kQ6d1Cobs9kTjBUcrSddlcPPc4THQKppdwSdBh/HvTD8cZZyF3A+9wmydH\nfcC3cMEdbrB4rfEsiRZLW3mAz4+dTWFKlVoQj9123tXvFyBC+GBhPAkCgYAkGhZp\ngwdDg95JUo8BpXsiW7Q0E6uhT5/oXHvOSIX0r80UN94wCmFKoR4Y22uj1deujpwK\nQIQtiMJDKK02oPMapc5+nSYpMJgLDxvhUK1sXRZdeRIwWiekLSmTEvPsqj4IqtH7\nXawYh6HTyNM/MiheO7COwMhCfA4HickCvtEHjQKBgQD5j24VqkScgO5xCuk1wbkM\nfyZjghGOmGR1y1YNi8LfAWfGIxEdVxIXIdXVgo0OLYKBDrPbydh1kc86rCJKKmhr\n3ZZjpO2cPVZ+rdj5D++2sQ6uka5vxd1Q9KK/3K0GviIrqeErDH7sGujm4l90QNOv\ndk5JBbQXrwhIQUyl2R6AOg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "SA-carburants-dataflow@carburants-dataflow.iam.gserviceaccount.com",
+  "client_id": "114983902458044465967",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/SA-carburants-dataflow%40carburants-dataflow.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
