@@ -37,8 +37,10 @@ BQ_OUTPUT_TABLE=$PROJECT_ID:$DATASET_ID.$TABLE_ID
 TEMP_BQ_LOCATION=$BUCKET_URL_TEMP/temp_dir_bq
 TEMP_DF_LOCATION=$BUCKET_URL_TEMP/temp_dir_df
 
+datetime_now=$(date '+%m%d_%H%M')
+
 # dataflow job with bigquery storage API support
-gcloud dataflow flex-template run api-carbu-data-$SUFFIXE\
+gcloud dataflow flex-template run job-$SUFFIXE-$datetime_now\
     --template-file-gcs-location gs://dataflow-templates-europe-west9/latest/flex/GCS_Text_to_BigQuery_Flex \
     --region $REGION \
     --additional-experiments {} \

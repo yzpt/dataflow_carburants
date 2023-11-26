@@ -51,8 +51,9 @@ echo output table:$BQ_OUTPUT_TABLE
 echo temp bq location:$TEMP_BQ_LOCATION
 echo temp df location:$TEMP_DF_LOCATION
 
+
 # dataflow job with bigquery storage API support
-gcloud dataflow flex-template run api-carbu-data-$SUFFIXE-ahah\
+gcloud dataflow flex-template run job-$SUFFIXE-allo\
     --template-file-gcs-location gs://dataflow-templates-europe-west9/latest/flex/GCS_Text_to_BigQuery_Flex \
     --region $REGION \
     --additional-experiments {} \

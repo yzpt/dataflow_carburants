@@ -49,9 +49,10 @@ bq --location=EU mk --dataset $PROJECT_ID:$DATASET_ID
 
 # create a table
 # > table_schema.json
-TABLE_ID=carburants_table
-bq mk --table $PROJECT_ID:$DATASET_ID.$TABLE_ID ./table_schema.json
-
+TABLE_ID=carbu_api_test_light
+bq mk --table $PROJECT_ID:$DATASET_ID.$TABLE_ID ./table_schema_bq.json
+# delete
+bq rm -f -t $PROJECT_ID:$DATASET_ID.$TABLE_ID
 
 # === Dataflow =================================================================================================
 # enable the Dataflow API
@@ -61,7 +62,7 @@ gcloud services enable dataflow.googleapis.com
 gsutil cp ./table_schema.json $BUCKET_URL
 
 # transfert instantane.csv file to the bucket
-gsutil cp ./instantane.csv $BUCKET_URL_INPUT_FILES
+gsutil cp ./instantane_light.csv $BUCKET_URL_INPUT_FILES
 
 # GCS input file
 GCS_INPUT_FILE=$BUCKET_URL/PrixCarburants_instantane.xml
@@ -161,6 +162,9 @@ gcloud dataflow jobs run fzeafee \
 #  - service-894984696845@cloudcomposer-accounts.iam.gserviceaccount.com in project 894984696845 is missing role roles/composer.ServiceAgentV2Ext
 
 # The list of missing roles is generated without checking individual permissions in IAM custom roles. If any of the Service Accounts above uses custom IAM roles, its permissions may be sufficient and a corresponding warning may be ignored.
+
+# === CLI DOC :
+# https://cloud.google.com/composer/docs/how-to/managing/creating#gcloud
 
 
 
