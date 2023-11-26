@@ -139,3 +139,59 @@ gcloud dataflow jobs run fzeafee \
 # -> auto_dataflow.sh
 
 # AVEC API OK    
+
+
+# === Composer =================================================================================================
+# with UI
+# Accorder les autorisations requises au compte de service Cloud Composer
+# Cloud Composer s'appuie sur Workload Identity  comme mécanisme d'authentification des API Google pour Airflow.
+
+# Pour prendre en charge Workload Identity, Cloud Composer crée des liaisons de rôles IAM supplémentaires qui nécessitent le rôle Cloud Composer v2 API Service Agent Extension.
+
+
+# Attribuez le rôle Cloud Composer v2 API Service Agent Extension au compte de service service-894984696845@cloudcomposer-accounts.iam.gserviceaccount.com.
+# Le compte de service SA-carburants-dataflow@carburants-dataflow.iam.gserviceaccount.com sera utilisé comme ressource.
+
+# creating...
+# compsoer v2 non 2.5.1	2.6.3
+# L'opération CREATE effectuée sur cet environnement a échoué il y a 10 minutes avec le message d'erreur suivant :
+# Some of the GKE pods failed to become healthy. Please check the GKE logs for details, and retry the operation.
+
+# The issue may be caused by missing IAM roles in the following Service Accounts:
+#  - service-894984696845@cloudcomposer-accounts.iam.gserviceaccount.com in project 894984696845 is missing role roles/composer.ServiceAgentV2Ext
+
+# The list of missing roles is generated without checking individual permissions in IAM custom roles. If any of the Service Accounts above uses custom IAM roles, its permissions may be sufficient and a corresponding warning may be ignored.
+
+
+
+# === local Airflow ============================================================================================
+python3 -m venv venv-airflow
+source venv-airflow/bin/activate
+
+pip install "apache-airflow[celery]==2.7.2" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.7.2/constraints-3.10.txt"
+
+# init airflow
+export AIRFLOW_HOME=$(pwd)
+airflow db init
+airflow users create --username admin --password admin --firstname Yohann --lastname Zapart --role Admin --email yohann@zapart.com
+
+# airflow.cfg --> don't load example dags
+sed -i 's/load_examples = True/load_examples = False/g' airflow.cfg
+
+# New terminal
+cd <project_path>
+source venv-airflow/bin/activate
+export AIRFLOW_HOME=$(pwd)
+airflow scheduler
+
+# New terminal
+cd <project_path>
+source venv-airflow/bin/activate
+export AIRFLOW_HOME=$(pwd)
+airflow webserver --port 8080
+
+mkdir dags
+
+
+bq query --use_legacy_sql=false 'SELECT * FROM `carburants-dataflow.carburants_dataset.carbu_api_test_light` LIMIT 1000'
+# ok

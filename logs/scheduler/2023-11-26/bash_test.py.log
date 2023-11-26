@@ -1,0 +1,277 @@
+[2023-11-26T19:33:18.120+0100] {processor.py:157} INFO - Started process (PID=12287) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:33:18.121+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:33:18.122+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:33:18.122+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:33:18.136+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:33:18.263+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:33:18.263+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-26T19:33:18.276+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:33:18.275+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-26T19:33:18.292+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:33:18.291+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-26T19:33:18.292+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:33:18.292+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:33:18.303+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:33:18.303+0100] {dag.py:2963} INFO - Creating ORM DAG for our_first_dag_v5
+[2023-11-26T19:33:18.312+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:33:18.312+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:25:00+00:00, run_after=2023-11-26T18:30:00+00:00
+[2023-11-26T19:33:18.330+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.214 seconds
+[2023-11-26T19:33:49.228+0100] {processor.py:157} INFO - Started process (PID=12343) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:33:49.231+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:33:49.231+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:33:49.231+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:33:49.242+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:33:49.259+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:33:49.259+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:33:49.278+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:33:49.277+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:25:00+00:00, run_after=2023-11-26T18:30:00+00:00
+[2023-11-26T19:33:49.295+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.069 seconds
+[2023-11-26T19:34:19.439+0100] {processor.py:157} INFO - Started process (PID=12388) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:34:19.441+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:34:19.443+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:34:19.442+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:34:19.479+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:34:19.507+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:34:19.506+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:34:19.551+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:34:19.551+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:25:00+00:00, run_after=2023-11-26T18:30:00+00:00
+[2023-11-26T19:34:19.596+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.162 seconds
+[2023-11-26T19:34:50.639+0100] {processor.py:157} INFO - Started process (PID=12428) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:34:50.641+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:34:50.642+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:34:50.642+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:34:50.653+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:34:50.671+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:34:50.671+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:34:50.690+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:34:50.690+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:25:00+00:00, run_after=2023-11-26T18:30:00+00:00
+[2023-11-26T19:34:50.707+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.071 seconds
+[2023-11-26T19:35:20.873+0100] {processor.py:157} INFO - Started process (PID=12461) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:35:20.876+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:35:20.877+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:35:20.876+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:35:20.887+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:35:20.905+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:35:20.905+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:35:20.924+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:35:20.924+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:30:00+00:00, run_after=2023-11-26T18:35:00+00:00
+[2023-11-26T19:35:20.942+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.072 seconds
+[2023-11-26T19:35:41.021+0100] {processor.py:157} INFO - Started process (PID=12564) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:35:41.021+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:35:41.022+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:35:41.022+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:35:41.033+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:35:41.118+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:35:41.118+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:35:41.135+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:35:41.135+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:30:00+00:00, run_after=2023-11-26T18:35:00+00:00
+[2023-11-26T19:35:41.155+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.137 seconds
+[2023-11-26T19:36:15.474+0100] {processor.py:157} INFO - Started process (PID=12688) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:36:15.476+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:36:15.477+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:36:15.477+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:36:15.489+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:36:15.512+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:36:15.512+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:36:15.536+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:36:15.535+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:35:00+00:00, run_after=2023-11-26T18:40:00+00:00
+[2023-11-26T19:36:15.565+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.094 seconds
+[2023-11-26T19:36:45.689+0100] {processor.py:157} INFO - Started process (PID=12789) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:36:45.693+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:36:45.694+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:36:45.693+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:36:45.705+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:36:45.727+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:36:45.727+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:36:45.750+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:36:45.750+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:35:00+00:00, run_after=2023-11-26T18:40:00+00:00
+[2023-11-26T19:36:45.772+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.085 seconds
+[2023-11-26T19:37:16.038+0100] {processor.py:157} INFO - Started process (PID=12810) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:37:16.041+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:37:16.042+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:37:16.042+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:37:16.053+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:37:16.070+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:37:16.070+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:37:16.089+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:37:16.089+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:35:00+00:00, run_after=2023-11-26T18:40:00+00:00
+[2023-11-26T19:37:16.109+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.073 seconds
+[2023-11-26T19:37:46.387+0100] {processor.py:157} INFO - Started process (PID=12867) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:37:46.388+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:37:46.389+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:37:46.388+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:37:46.404+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:37:46.430+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:37:46.430+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:37:46.457+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:37:46.457+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:35:00+00:00, run_after=2023-11-26T18:40:00+00:00
+[2023-11-26T19:37:46.485+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.103 seconds
+[2023-11-26T19:38:16.805+0100] {processor.py:157} INFO - Started process (PID=12914) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:38:16.808+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:38:16.809+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:38:16.808+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:38:16.820+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:38:16.838+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:38:16.838+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:38:16.857+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:38:16.857+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:35:00+00:00, run_after=2023-11-26T18:40:00+00:00
+[2023-11-26T19:38:16.874+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.071 seconds
+[2023-11-26T19:38:21.778+0100] {processor.py:157} INFO - Started process (PID=12997) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:38:21.780+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:38:21.781+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:38:21.781+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:38:21.796+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:38:21.887+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:38:21.886+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:38:21.906+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:38:21.906+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:35:00+00:00, run_after=2023-11-26T18:40:00+00:00
+[2023-11-26T19:38:21.927+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.153 seconds
+[2023-11-26T19:38:52.867+0100] {processor.py:157} INFO - Started process (PID=13078) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:38:52.870+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:38:52.871+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:38:52.870+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:38:52.882+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:38:52.899+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:38:52.899+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:38:52.918+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:38:52.918+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:35:00+00:00, run_after=2023-11-26T18:40:00+00:00
+[2023-11-26T19:38:52.938+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.073 seconds
+[2023-11-26T19:39:23.967+0100] {processor.py:157} INFO - Started process (PID=13110) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:39:23.970+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:39:23.971+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:39:23.970+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:39:23.981+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:39:23.999+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:39:23.999+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:39:24.019+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:39:24.018+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:35:00+00:00, run_after=2023-11-26T18:40:00+00:00
+[2023-11-26T19:39:24.035+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.070 seconds
+[2023-11-26T19:39:55.052+0100] {processor.py:157} INFO - Started process (PID=13153) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:39:55.055+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:39:55.056+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:39:55.055+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:39:55.067+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:39:55.085+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:39:55.085+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:39:55.105+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:39:55.105+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:35:00+00:00, run_after=2023-11-26T18:40:00+00:00
+[2023-11-26T19:39:55.121+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.074 seconds
+[2023-11-26T19:40:25.462+0100] {processor.py:157} INFO - Started process (PID=13342) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:40:25.465+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:40:25.465+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:40:25.465+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:40:25.478+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:40:25.495+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:40:25.495+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:40:25.514+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:40:25.514+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:40:00+00:00, run_after=2023-11-26T18:45:00+00:00
+[2023-11-26T19:40:25.534+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.076 seconds
+[2023-11-26T19:40:55.688+0100] {processor.py:157} INFO - Started process (PID=13388) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:40:55.691+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:40:55.692+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:40:55.691+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:40:55.707+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:40:55.730+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:40:55.730+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:40:55.757+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:40:55.757+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:40:00+00:00, run_after=2023-11-26T18:45:00+00:00
+[2023-11-26T19:40:55.786+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.103 seconds
+[2023-11-26T19:41:25.911+0100] {processor.py:157} INFO - Started process (PID=13449) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:41:25.914+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:41:25.915+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:41:25.914+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:41:25.926+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:41:25.943+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:41:25.943+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:41:25.962+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:41:25.962+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:40:00+00:00, run_after=2023-11-26T18:45:00+00:00
+[2023-11-26T19:41:25.985+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.076 seconds
+[2023-11-26T19:41:41.035+0100] {processor.py:157} INFO - Started process (PID=13631) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:41:41.038+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:41:41.039+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:41:41.038+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:41:41.050+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:41:41.139+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:41:41.139+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:41:41.156+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:41:41.156+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:40:00+00:00, run_after=2023-11-26T18:45:00+00:00
+[2023-11-26T19:41:41.176+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.144 seconds
+[2023-11-26T19:42:11.691+0100] {processor.py:157} INFO - Started process (PID=13746) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:42:11.694+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:42:11.695+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:42:11.694+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:42:11.706+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:42:11.723+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:42:11.723+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:42:11.742+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:42:11.742+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:40:00+00:00, run_after=2023-11-26T18:45:00+00:00
+[2023-11-26T19:42:11.759+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.070 seconds
+[2023-11-26T19:42:41.811+0100] {processor.py:157} INFO - Started process (PID=13774) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:42:41.814+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:42:41.815+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:42:41.814+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:42:41.827+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:42:41.848+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:42:41.848+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:42:41.871+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:42:41.870+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:40:00+00:00, run_after=2023-11-26T18:45:00+00:00
+[2023-11-26T19:42:41.894+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.086 seconds
+[2023-11-26T19:42:55.422+0100] {processor.py:157} INFO - Started process (PID=13795) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:42:55.423+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:42:55.424+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:42:55.424+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:42:55.439+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:42:55.647+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:42:55.647+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:42:55.667+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:42:55.667+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:40:00+00:00, run_after=2023-11-26T18:45:00+00:00
+[2023-11-26T19:42:55.685+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.266 seconds
+[2023-11-26T19:43:25.726+0100] {processor.py:157} INFO - Started process (PID=13944) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:43:25.728+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:43:25.729+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:43:25.729+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:43:25.742+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:43:25.772+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:43:25.772+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:43:25.805+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:43:25.805+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:40:00+00:00, run_after=2023-11-26T18:45:00+00:00
+[2023-11-26T19:43:25.839+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.116 seconds
+[2023-11-26T19:43:55.943+0100] {processor.py:157} INFO - Started process (PID=13967) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:43:55.944+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:43:55.945+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:43:55.945+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:43:55.956+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:43:55.973+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:43:55.973+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:43:55.993+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:43:55.993+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:40:00+00:00, run_after=2023-11-26T18:45:00+00:00
+[2023-11-26T19:43:56.010+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.069 seconds
+[2023-11-26T19:44:26.149+0100] {processor.py:157} INFO - Started process (PID=13991) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:44:26.152+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:44:26.152+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:44:26.152+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:44:26.163+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:44:26.181+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:44:26.181+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:44:26.200+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:44:26.200+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:40:00+00:00, run_after=2023-11-26T18:45:00+00:00
+[2023-11-26T19:44:26.217+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.070 seconds
+[2023-11-26T19:44:56.339+0100] {processor.py:157} INFO - Started process (PID=14015) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:44:56.342+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:44:56.343+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:44:56.342+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:44:56.353+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:44:56.371+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:44:56.371+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:44:56.390+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:44:56.390+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:40:00+00:00, run_after=2023-11-26T18:45:00+00:00
+[2023-11-26T19:44:56.407+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.070 seconds
+[2023-11-26T19:45:27.272+0100] {processor.py:157} INFO - Started process (PID=14127) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:45:27.274+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:45:27.275+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:45:27.275+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:45:27.286+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:45:27.303+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:45:27.303+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:45:27.322+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:45:27.322+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:45:00+00:00, run_after=2023-11-26T18:50:00+00:00
+[2023-11-26T19:45:27.339+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.070 seconds
+[2023-11-26T19:45:57.599+0100] {processor.py:157} INFO - Started process (PID=14151) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:45:57.602+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:45:57.602+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:45:57.602+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:45:57.614+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:45:57.631+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:45:57.631+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:45:57.650+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:45:57.650+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:45:00+00:00, run_after=2023-11-26T18:50:00+00:00
+[2023-11-26T19:45:57.667+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.070 seconds
+[2023-11-26T19:46:27.952+0100] {processor.py:157} INFO - Started process (PID=14199) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:46:27.952+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:46:27.953+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:46:27.953+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:46:27.964+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:46:27.981+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:46:27.981+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:46:28.000+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:46:28.000+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:45:00+00:00, run_after=2023-11-26T18:50:00+00:00
+[2023-11-26T19:46:28.019+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.070 seconds
+[2023-11-26T19:46:58.347+0100] {processor.py:157} INFO - Started process (PID=14222) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:46:58.349+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:46:58.350+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:46:58.350+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:46:58.362+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:46:58.382+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:46:58.382+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:46:58.407+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:46:58.406+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:45:00+00:00, run_after=2023-11-26T18:50:00+00:00
+[2023-11-26T19:46:58.428+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.084 seconds
+[2023-11-26T19:47:28.704+0100] {processor.py:157} INFO - Started process (PID=14246) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:47:28.706+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:47:28.707+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:47:28.706+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:47:28.719+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:47:28.738+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:47:28.738+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:47:28.761+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:47:28.761+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:45:00+00:00, run_after=2023-11-26T18:50:00+00:00
+[2023-11-26T19:47:28.780+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.080 seconds
+[2023-11-26T19:47:59.069+0100] {processor.py:157} INFO - Started process (PID=14278) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:47:59.072+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:47:59.073+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:47:59.072+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:47:59.083+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:47:59.102+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:47:59.102+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:47:59.123+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:47:59.123+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:45:00+00:00, run_after=2023-11-26T18:50:00+00:00
+[2023-11-26T19:47:59.141+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.074 seconds
+[2023-11-26T19:48:29.461+0100] {processor.py:157} INFO - Started process (PID=14475) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:48:29.462+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:48:29.462+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:48:29.462+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:48:29.473+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:48:29.490+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:48:29.490+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:48:29.510+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:48:29.510+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:45:00+00:00, run_after=2023-11-26T18:50:00+00:00
+[2023-11-26T19:48:29.527+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.069 seconds
+[2023-11-26T19:48:59.797+0100] {processor.py:157} INFO - Started process (PID=14630) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:48:59.799+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:48:59.800+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:48:59.800+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:48:59.811+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:48:59.829+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:48:59.828+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:48:59.847+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:48:59.847+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:45:00+00:00, run_after=2023-11-26T18:50:00+00:00
+[2023-11-26T19:48:59.870+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.076 seconds
+[2023-11-26T19:49:30.112+0100] {processor.py:157} INFO - Started process (PID=14847) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:49:30.113+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:49:30.113+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:49:30.113+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:49:30.125+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:49:30.144+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:49:30.144+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:49:30.163+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:49:30.162+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:45:00+00:00, run_after=2023-11-26T18:50:00+00:00
+[2023-11-26T19:49:30.180+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.072 seconds
+[2023-11-26T19:50:00.447+0100] {processor.py:157} INFO - Started process (PID=14939) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:50:00.450+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:50:00.451+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:50:00.451+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:50:00.462+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:50:00.479+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:50:00.479+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:50:00.498+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:50:00.498+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:45:00+00:00, run_after=2023-11-26T18:50:00+00:00
+[2023-11-26T19:50:00.515+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.070 seconds
+[2023-11-26T19:50:30.773+0100] {processor.py:157} INFO - Started process (PID=15057) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:50:30.776+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:50:30.777+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:50:30.776+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:50:30.791+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:50:30.813+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:50:30.813+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:50:30.838+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:50:30.837+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:50:00+00:00, run_after=2023-11-26T18:55:00+00:00
+[2023-11-26T19:50:30.858+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.089 seconds
+[2023-11-26T19:51:01.130+0100] {processor.py:157} INFO - Started process (PID=15143) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:51:01.132+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:51:01.134+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:51:01.133+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:51:01.150+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:51:01.180+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:51:01.179+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:51:01.215+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:51:01.214+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:50:00+00:00, run_after=2023-11-26T18:55:00+00:00
+[2023-11-26T19:51:01.244+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.118 seconds
+[2023-11-26T19:51:31.572+0100] {processor.py:157} INFO - Started process (PID=15310) to work on /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:51:31.574+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/dataflow_carburants/dags/bash_test.py for tasks to queue
+[2023-11-26T19:51:31.575+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:51:31.575+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:51:31.586+0100] {processor.py:839} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /home/yzpt/projects/dataflow_carburants/dags/bash_test.py
+[2023-11-26T19:51:31.603+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:51:31.603+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-26T19:51:31.626+0100] {logging_mixin.py:151} INFO - [2023-11-26T19:51:31.626+0100] {dag.py:3722} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-11-26T18:50:00+00:00, run_after=2023-11-26T18:55:00+00:00
+[2023-11-26T19:51:31.643+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/dataflow_carburants/dags/bash_test.py took 0.074 seconds

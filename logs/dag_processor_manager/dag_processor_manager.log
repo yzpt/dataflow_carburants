@@ -1,0 +1,315 @@
+[2023-11-26T19:23:50.271+0100] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2023-11-26T19:23:50.272+0100] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-11-26T19:23:50.272+0100] {manager.py:489} INFO - Checking for new files in /home/yzpt/projects/dataflow_carburants/dags every 300 seconds
+[2023-11-26T19:23:50.272+0100] {manager.py:755} INFO - Searching for files in /home/yzpt/projects/dataflow_carburants/dags
+[2023-11-26T19:23:50.273+0100] {manager.py:758} INFO - There are 0 files in /home/yzpt/projects/dataflow_carburants/dags
+[2023-11-26T19:28:50.284+0100] {manager.py:755} INFO - Searching for files in /home/yzpt/projects/dataflow_carburants/dags
+[2023-11-26T19:28:50.285+0100] {manager.py:758} INFO - There are 0 files in /home/yzpt/projects/dataflow_carburants/dags
+[2023-11-26T19:33:08.272+0100] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-11-26T19:33:18.054+0100] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2023-11-26T19:33:18.055+0100] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-11-26T19:33:18.055+0100] {manager.py:489} INFO - Checking for new files in /home/yzpt/projects/dataflow_carburants/dags every 300 seconds
+[2023-11-26T19:33:18.055+0100] {manager.py:755} INFO - Searching for files in /home/yzpt/projects/dataflow_carburants/dags
+[2023-11-26T19:33:18.056+0100] {manager.py:758} INFO - There are 1 files in /home/yzpt/projects/dataflow_carburants/dags
+[2023-11-26T19:33:18.417+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.30s           2023-11-26T18:33:18
+================================================================================
+[2023-11-26T19:33:49.325+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:33:49
+================================================================================
+[2023-11-26T19:34:19.630+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.21s           2023-11-26T18:34:19
+================================================================================
+[2023-11-26T19:34:50.735+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:34:50
+================================================================================
+[2023-11-26T19:35:20.969+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:35:20
+================================================================================
+[2023-11-26T19:35:51.086+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.20s           2023-11-26T18:35:41
+================================================================================
+[2023-11-26T19:36:23.537+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.11s           2023-11-26T18:36:15
+================================================================================
+[2023-11-26T19:36:53.933+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:36:45
+================================================================================
+[2023-11-26T19:37:24.293+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:37:16
+================================================================================
+[2023-11-26T19:37:54.734+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.21s           2023-11-26T18:37:46
+================================================================================
+[2023-11-26T19:38:18.065+0100] {manager.py:755} INFO - Searching for files in /home/yzpt/projects/dataflow_carburants/dags
+[2023-11-26T19:38:18.067+0100] {manager.py:758} INFO - There are 1 files in /home/yzpt/projects/dataflow_carburants/dags
+[2023-11-26T19:38:25.078+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.21s           2023-11-26T18:38:21
+================================================================================
+[2023-11-26T19:38:55.477+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:38:52
+================================================================================
+[2023-11-26T19:39:25.715+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:39:24
+================================================================================
+[2023-11-26T19:39:55.952+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:39:55
+================================================================================
+[2023-11-26T19:40:26.204+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:40:25
+================================================================================
+[2023-11-26T19:40:56.314+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.21s           2023-11-26T18:40:55
+================================================================================
+[2023-11-26T19:41:26.411+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:41:26
+================================================================================
+[2023-11-26T19:41:56.889+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.20s           2023-11-26T18:41:41
+================================================================================
+[2023-11-26T19:42:27.101+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:42:11
+================================================================================
+[2023-11-26T19:42:57.346+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.31s           2023-11-26T18:42:55
+================================================================================
+[2023-11-26T19:43:18.109+0100] {manager.py:755} INFO - Searching for files in /home/yzpt/projects/dataflow_carburants/dags
+[2023-11-26T19:43:18.111+0100] {manager.py:758} INFO - There are 1 files in /home/yzpt/projects/dataflow_carburants/dags
+[2023-11-26T19:43:28.023+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.20s           2023-11-26T18:43:25
+================================================================================
+[2023-11-26T19:43:58.099+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:43:56
+================================================================================
+[2023-11-26T19:44:28.305+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:44:26
+================================================================================
+[2023-11-26T19:44:58.495+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:44:56
+================================================================================
+[2023-11-26T19:45:29.442+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:45:27
+================================================================================
+[2023-11-26T19:45:59.764+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:45:57
+================================================================================
+[2023-11-26T19:46:30.122+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:46:28
+================================================================================
+[2023-11-26T19:47:00.528+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:46:58
+================================================================================
+[2023-11-26T19:47:30.876+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:47:28
+================================================================================
+[2023-11-26T19:48:01.239+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:47:59
+================================================================================
+[2023-11-26T19:48:18.163+0100] {manager.py:755} INFO - Searching for files in /home/yzpt/projects/dataflow_carburants/dags
+[2023-11-26T19:48:18.164+0100] {manager.py:758} INFO - There are 1 files in /home/yzpt/projects/dataflow_carburants/dags
+[2023-11-26T19:48:31.629+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:48:29
+================================================================================
+[2023-11-26T19:49:01.962+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:48:59
+================================================================================
+[2023-11-26T19:49:32.276+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:49:30
+================================================================================
+[2023-11-26T19:50:04.586+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:50:00
+================================================================================
+[2023-11-26T19:50:34.648+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.11s           2023-11-26T18:50:30
+================================================================================
+[2023-11-26T19:51:04.740+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.21s           2023-11-26T18:51:01
+================================================================================
+[2023-11-26T19:51:34.773+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/dataflow_carburants/dags/bash_test.py                           1           0  0.10s           2023-11-26T18:51:31
+================================================================================
