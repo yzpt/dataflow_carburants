@@ -1,0 +1,17 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "id",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "adresse",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ville",
+    "type": "STRING"
+  }
+]

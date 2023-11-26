@@ -94,12 +94,61 @@ gcloud dataflow jobs run job-test \
 
 
 # https://github.com/GoogleCloudPlatform/DataflowTemplates/blob/main/v2/common/src/main/resources/udf-samples/transform_csv.js
-> transform_csv.js
+# > transform_csv.js
 
-# transfer js script to the bucket
-gsutil cp ./data.json $BUCKET_URL_INPUT_FILES
-
-gcloud dataflow jobs run dzaf --gcs-location gs://dataflow-templates-europe-west9/latest/GCS_Text_to_BigQuery --region europe-west9 --staging-location gs://carburants-dataflow-temp/temp_dir_df/ --additional-experiments {} --parameters inputFilePattern=gs://carburants-dataflow-input-files/data.json,JSONPath=gs://carburants-dataflow-input-files/table_schema.json,outputTable=carburants-dataflow:carburants_dataset.carburants_table,bigQueryLoadingTemporaryDirectory=gs://carburants-dataflow-temp/temp_dir_bq/
-#non
 
 #try avec transform_csv.js, input as csv file
+# transfer js script to the bucket
+gsutil cp ./transform_csv.js $BUCKET_URL_INPUT_FILES
+
+
+gcloud dataflow jobs run fzeafee \
+    --gcs-location gs://dataflow-templates-europe-west9/latest/GCS_Text_to_BigQuery \
+    --region europe-west9 \
+    --staging-location gs://carburants-dataflow-temp/temp_dir_df/ \
+    --additional-experiments {} \
+    --parameters inputFilePattern=gs://carburants-dataflow-input-files/instantane.csv,JSONPath=gs://carburants-dataflow-input-files/table_schema.json,outputTable=carburants-dataflow:carburants_dataset.carburants_table,bigQueryLoadingTemporaryDirectory=gs://carburants-dataflow-temp/temp_dir_bq/,javascriptTextTransformGcsPath=gs://carburants-dataflow-input-files/transform_csv.js,javascriptTextTransformFunctionName=process,javascriptTextTransformFunctionName=process
+
+
+
+# === dimanche 26 novembre =====================================================================================
+# --> auto_dataflow.sh
+
+# dataflow job failure on bigquery step:
+# Root cause: org.apache.beam.sdk.util.UserCodeException: java.lang.RuntimeException: Error parsing schema
+
+# -->
+# https://cloud.google.com/dataflow/docs/guides/templates/provided/text-to-bigquery-stream
+# Ensure that there is a top-level JSON array titled fields and that its contents follow the pattern:
+# {"name": "COLUMN_NAME", "type": "DATA_TYPE"}. For example:
+# {
+#   "BigQuery Schema": [
+#     {
+#       "name": "location",
+#       "type": "STRING"
+#     },
+#     {
+#       "name": "name",
+#       "type": "STRING"
+#     },
+#     {
+# ----- NONNNNN --------------
+
+
+# with bigquery storage writeAPI
+gcloud dataflow flex-template run avecapi3\
+    --template-file-gcs-location gs://dataflow-templates-europe-west9/latest/flex/GCS_Text_to_BigQuery_Flex \
+    --region europe-west9 \
+    --additional-experiments {} \
+    --parameters \
+inputFilePattern=gs://carburants-dataflow-input-files/instantane_test.csv,\
+JSONPath=gs://carburants-dataflow-input-files/table_schema_test.json,\
+outputTable=carburants-dataflow:carburants_dataset.dataflow_test,\
+javascriptTextTransformGcsPath=gs://carburants-dataflow-input-files/transform_csv_test.js,\
+javascriptTextTransformFunctionName=process,\
+bigQueryLoadingTemporaryDirectory=gs://carburants-dataflow-temp/temp_dir_bq/,\
+useStorageWriteApi=true,\
+javascriptTextTransformReloadIntervalMinutes=0
+
+
+# AVEC API OKKK!

@@ -29,27 +29,8 @@ function process(line) {
   // Create new obj and set each field according to destination's schema
   const obj = {
     id: values[0],
-    record_timestamp: values[1],
-    latitude: values[2],
-    longitude: values[3],
-    cp: values[4],
-    pop: values[5],
-    adresse: values[6],
-    ville: values[7],
-    horaires: values[8],
-    services: values[9],
-    gazole_maj: values[10],
-    gazole_prix: values[11],
-    sp95_maj: values[12],
-    sp95_prix: values[13],
-    e85_maj: values[14],
-    e85_prix: values[15],
-    gplc_maj: values[16],
-    gplc_prix: values[17],
-    e10_maj: values[18],
-    e10_prix: values[19],
-    sp98_maj: values[20],
-    sp98_prix: values[21]
+    adresse: values[1],
+    ville: values[2],
   };
 
   return JSON.stringify(obj);
