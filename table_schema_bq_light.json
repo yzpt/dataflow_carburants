@@ -1,0 +1,12 @@
+[
+    {
+        "name": "record_timestamp",
+        "type": "TIMESTAMP",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "id",
+        "type": "INT64",
+        "mode": "REQUIRED"
+    }
+]

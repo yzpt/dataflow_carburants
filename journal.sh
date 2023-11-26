@@ -118,7 +118,7 @@ gcloud dataflow jobs run fzeafee \
 # Root cause: org.apache.beam.sdk.util.UserCodeException: java.lang.RuntimeException: Error parsing schema
 
 # -->
-# https://cloud.google.com/dataflow/docs/guides/templates/provided/text-to-bigquery-stream
+# https://cloud.google.com/dataflow/docs/guides/templates/provided/cloud-storage-to-bigquery
 # Ensure that there is a top-level JSON array titled fields and that its contents follow the pattern:
 # {"name": "COLUMN_NAME", "type": "DATA_TYPE"}. For example:
 # {
@@ -131,24 +131,11 @@ gcloud dataflow jobs run fzeafee \
 #       "name": "name",
 #       "type": "STRING"
 #     },
-#     {
-# ----- NONNNNN --------------
+#     {...
 
 
-# with bigquery storage writeAPI
-gcloud dataflow flex-template run avecapi3\
-    --template-file-gcs-location gs://dataflow-templates-europe-west9/latest/flex/GCS_Text_to_BigQuery_Flex \
-    --region europe-west9 \
-    --additional-experiments {} \
-    --parameters \
-inputFilePattern=gs://carburants-dataflow-input-files/instantane_test.csv,\
-JSONPath=gs://carburants-dataflow-input-files/table_schema_test.json,\
-outputTable=carburants-dataflow:carburants_dataset.dataflow_test,\
-javascriptTextTransformGcsPath=gs://carburants-dataflow-input-files/transform_csv_test.js,\
-javascriptTextTransformFunctionName=process,\
-bigQueryLoadingTemporaryDirectory=gs://carburants-dataflow-temp/temp_dir_bq/,\
-useStorageWriteApi=true,\
-javascriptTextTransformReloadIntervalMinutes=0
 
+# with bigquery storage API support
+# -> auto_dataflow.sh
 
-# AVEC API OKKK!
+# AVEC API OK    
